@@ -21,3 +21,5 @@ Feature: Abertura de conta
     When preencher o formulário de abertura de conta 
     And clicar no botão enviar
     Then sera exibido o texto falta pouco
+
+
