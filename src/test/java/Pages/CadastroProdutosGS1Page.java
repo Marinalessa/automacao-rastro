@@ -3,7 +3,7 @@ package Pages;
 import org.openqa.selenium.By;
 
 public class CadastroProdutosGS1Page {
-    private By menuCadastros = By.xpath("//span[text()='Cadastros']");
+
     private By subMenuProduto = By.xpath("//span[text()='Produtos']");
     private By btnNovoProduto = By.id("button-new");
     private By campoSKU = By.id("txt-sku");
@@ -17,9 +17,7 @@ public class CadastroProdutosGS1Page {
         return campoCategoria;
     }
 
-    public By getMenuCadastros() {
-        return menuCadastros;
-    }
+
 
     public By getSubMenuProduto() {
         return subMenuProduto;

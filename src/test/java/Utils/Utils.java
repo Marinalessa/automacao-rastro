@@ -1,4 +1,4 @@
-package Logic;
+package Utils;
 
 import static org.junit.Assert.assertEquals;
 
@@ -6,9 +6,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Logic {
+public class Utils {
 
-	WebDriver driver;
+	public static WebDriver driver;
+
+
 	
 	public void clicar (By elemento) {
 	
@@ -36,7 +38,7 @@ public void fecharNavegador ()  {
 	
 public void abrirNavegador (String url)  {
 	System.setProperty("webdriver.chrome.driver", "./Drive/chromedriver.exe");
-	driver = new ChromeDriver();
+driver = new ChromeDriver();
 	driver.get(url);
 	driver.manage().window().maximize();
 
