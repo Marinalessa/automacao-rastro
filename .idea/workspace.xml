@@ -4,28 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1a3c845-2eae-4cd0-9c99-6fd247fb433d" name="Changes" comment="inclusão da automação de login e cadastros">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/CadastroProdutosGS1Logic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/CadastroSitesLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/CadastrosLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/LoginLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/CadastroPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/CadastroSitesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/CadastroSitesStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="a1a3c845-2eae-4cd0-9c99-6fd247fb433d" name="Changes" comment="inclusão da automação de cadastro de Site">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/CadastroImpressoraLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/CadastroUsuarioLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/CadastroImpressorasPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/CadastroLeitoresPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/CadastroUsuarioPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/CadastroImpressoraStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/CadastroUsuarioStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/Logic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/CadastroProdutosGS1Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/CadastroProdutosGS1Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/CadastroProdutosGS1Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/CadastroProdutosGS1Steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/LoginStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/CadastroSitesLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/CadastroSitesLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.cucumber/cucumber.glue.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.cucumber/cucumber.stepDefinitions.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/Br.com.original/Br.com.original/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/Br.com.original/Br.com.original/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Feature/Cadastros.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Feature/Cadastros.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/Logic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/CadastroProdutosGS1Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/CadastroProdutosGS1Page.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/CadastroProdutosGS1Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/CadastroProdutosGS1Steps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/LoginStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/LoginStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/CadastroSitesLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/CadastroSitesLogic.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +45,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Marinalessa"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="9c14abb6-a2e0-4f37-80be-ad1945bb5561" />
+        <option name="url" value="https://github.com/Marinalessa/banco-original.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -66,8 +77,10 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Cucumber Java.Scenario: Cadastro de impressora.executor": "Run",
     "Cucumber Java.Scenario: Cadastro de produto.executor": "Run",
     "Cucumber Java.Scenario: Cadastro de site.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de usuario.executor": "Run",
     "Cucumber Java.Scenario: Fechar Navegador.executor": "Run",
     "Cucumber Java.Scenario: Login no Rastro.executor": "Run",
     "JUnit.Runner (1).executor": "Run",
@@ -102,13 +115,33 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Cadastro de site">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Cadastro de impressora">
+    <configuration name="Scenario: Cadastro de impressora" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
+      <option name="GLUE" value="Steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Br.com.rastreabilidade" />
+      <option name="NAME_FILTER" value="^Cadastro de impressora$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Cadastro de impressora$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Cadastro de impressora" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Cadastro de produto" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Br.com.original" />
+      <module name="Br.com.rastreabilidade" />
       <option name="NAME_FILTER" value="^Cadastro de produto$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Cadastro de produto$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Cadastro de produto" />
@@ -128,7 +161,7 @@
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
       <option name="GLUE" value="Steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Br.com.original" />
+      <module name="Br.com.rastreabilidade" />
       <option name="NAME_FILTER" value="^Cadastro de site$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Cadastro de site$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Cadastro de site" />
@@ -143,38 +176,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Br.com.original" />
+    <configuration name="Scenario: Cadastro de usuario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
+      <option name="GLUE" value="Steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Br.com.rastreabilidade" />
+      <option name="NAME_FILTER" value="^Cadastro de usuario$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Cadastro de usuario$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Cadastro de usuario" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Runner.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Runner" />
-      <option name="MAIN_CLASS_NAME" value="Runner.Runner" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Runner (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Br.com.original" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Runner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Runner" />
-      <option name="MAIN_CLASS_NAME" value="Runner.Runner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Br.com.original" />
+      <module name="Br.com.rastreabilidade" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Runner.*" />
@@ -203,13 +226,16 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Cadastro de impressora" />
         <item itemvalue="Cucumber Java.Scenario: Cadastro de site" />
         <item itemvalue="Cucumber Java.Scenario: Cadastro de produto" />
+        <item itemvalue="Cucumber Java.Scenario: Cadastro de usuario" />
         <item itemvalue="JUnit.Runner (4)" />
-        <item itemvalue="JUnit.Runner (3)" />
-        <item itemvalue="JUnit.Runner" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SeleniumInternalSettingsState">
+    <option name="lastUrl" value="https://rastroapp-homol.rastreabilidadebrasil.com.br/#/dashboard" />
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -232,7 +258,7 @@
       <workItem from="1702988425739" duration="745000" />
       <workItem from="1702989193695" duration="837000" />
       <workItem from="1702990068857" duration="78000" />
-      <workItem from="1703007901367" duration="2053000" />
+      <workItem from="1703007901367" duration="29446000" />
     </task>
     <task id="LOCAL-00001" summary="alterações com inclusão do rastro">
       <option name="closed" value="true" />
@@ -258,7 +284,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702906736450</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="inclusão da automação de cadastro de Site">
+      <option name="closed" value="true" />
+      <created>1703010403162</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703010403162</updated>
+    </task>
+    <task id="LOCAL-00005" summary="inclusão da automação de cadastro de Site">
+      <option name="closed" value="true" />
+      <created>1703010497692</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703010497692</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +321,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="alterações com inclusão do rastro" />
     <MESSAGE value="inclusão da automação de login e cadastros" />
-    <option name="LAST_COMMIT_MESSAGE" value="inclusão da automação de login e cadastros" />
+    <MESSAGE value="inclusão da automação de cadastro de Site" />
+    <option name="LAST_COMMIT_MESSAGE" value="inclusão da automação de cadastro de Site" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

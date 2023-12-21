@@ -56,6 +56,7 @@ public class CadastroSitesLogic {
         utils.pausa(2000);
         utils.validarTexto(cadastroSitesPage.getTxtCadastroSite(), "O site foi cadastrado com sucesso!");
 
+
     }
 
 }

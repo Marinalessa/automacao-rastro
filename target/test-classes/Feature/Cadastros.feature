@@ -19,5 +19,22 @@ Feature: Cadastros no Rastro app
     And clilcar em novo e inserir os dados solicitados
     Then aparecera a mensagem "O site foi cadastrado com sucesso!"
 
+  @cadastrousuario
+  Scenario: Cadastro de usuario
+    Given que o usuário faça o login e esteja no dashboard
+    When ir em cadastro e selecionar a aba usuarios
+    And clicar em novo e inserir os dados do usuario
+    Then aparecera a mensagem O usuário foi cadastrado com sucesso!
+
+  @cadastroimpressora
+  Scenario: Cadastro de impressora
+    Given que o usuário faça o login e esteja no dashboard
+    And ir em cadastro e selecionar a aba impressoras
+    When clicar em novo e inserir os dados da impressora
+    Then a impressora sera cadastrada
+
+
+
+
 
 
