@@ -22,6 +22,9 @@ Feature: Cadastros no Rastro app
   @cadastrousuario
   Scenario: Cadastro de usuario
     Given que o usuário faça o login e esteja no dashboard
+
+
+
     When ir em cadastro e selecionar a aba usuarios
     And clicar em novo e inserir os dados do usuario
     Then aparecera a mensagem O usuário foi cadastrado com sucesso!
