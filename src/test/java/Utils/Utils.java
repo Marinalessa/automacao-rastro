@@ -55,5 +55,10 @@ String TextoTela = driver.findElement(elemento).getText();
 
 }
 	
-	
+	public void apagar(By elemento) {
+
+		driver.findElement(elemento).clear();
+
+
+	}
 }

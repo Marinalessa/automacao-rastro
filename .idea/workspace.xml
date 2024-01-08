@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1a3c845-2eae-4cd0-9c99-6fd247fb433d" name="Changes" comment="inclusão da automação de cadastro de impressoras&#10;inclusão do page do cadastro de Leitores">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_12_2023_09_43_[Changes]/Elementos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_12_2023_09_43_[Changes]/Metodos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_12_2023_09_43_[Changes]/Runner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_12_2023_09_43_[Changes]/Steps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_12_2023_09_43_[Changes]/shelved.patch" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/CadastroLeitorLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/CadastroLeitorStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/CadastroSitesLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/CadastroSitesLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Logic/CadastroUsuarioLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Logic/CadastroUsuarioLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/CadastroImpressorasPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/CadastroImpressorasPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Pages/CadastroLeitoresPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/CadastroLeitoresPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/CadastroUsuarioStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/CadastroUsuarioStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Feature/Cadastros.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Feature/Cadastros.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/CadastroSitesLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/CadastroSitesLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Logic/CadastroUsuarioLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Logic/CadastroUsuarioLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/CadastroImpressorasPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/CadastroImpressorasPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/CadastroUsuarioStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/CadastroUsuarioStep.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,37 +70,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Cucumber Java.Scenario: Cadastro de impressora.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Cadastro de produto.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Cadastro de site.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Cadastro de usuario.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Fechar Navegador.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Login no Rastro.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Runner (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Runner (2).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Runner (3).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Runner (4).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Runner (5).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Br.com.original [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;15.12.23&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/macar/IdeaProjects/banco-original&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pathVariables&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Cucumber Java.Scenario: Cadastro de Leitor.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de impressora.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de produto.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de site.executor": "Run",
+    "Cucumber Java.Scenario: Cadastro de usuario.executor": "Run",
+    "Cucumber Java.Scenario: Fechar Navegador.executor": "Run",
+    "Cucumber Java.Scenario: Login no Rastro.executor": "Run",
+    "JUnit.Runner (1).executor": "Run",
+    "JUnit.Runner (2).executor": "Run",
+    "JUnit.Runner (3).executor": "Run",
+    "JUnit.Runner (4).executor": "Run",
+    "JUnit.Runner (5).executor": "Run",
+    "JUnit.Runner.executor": "Run",
+    "Maven.Br.com.original [clean,install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "15.12.23",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/macar/IdeaProjects/banco-original",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pathVariables",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\macar\IdeaProjects\banco-original\Drive" />
@@ -103,7 +113,27 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Cadastro de usuario">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Cadastro de Leitor">
+    <configuration name="Scenario: Cadastro de Leitor" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
+      <option name="GLUE" value="Steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Br.com.rastreabilidade" />
+      <option name="NAME_FILTER" value="^Cadastro de Leitor$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Cadastro de Leitor$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Cadastro de Leitor" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Cadastro de impressora" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Feature/Cadastros.feature" />
@@ -184,21 +214,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Br.com.rastreabilidade" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Runner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Runner" />
-      <option name="MAIN_CLASS_NAME" value="Runner.Runner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="banco-original" />
       <method v="2">
@@ -214,16 +229,16 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Cadastro de usuario" />
-        <item itemvalue="Cucumber Java.Scenario: Cadastro de impressora" />
+        <item itemvalue="Cucumber Java.Scenario: Cadastro de Leitor" />
         <item itemvalue="Cucumber Java.Scenario: Cadastro de site" />
+        <item itemvalue="Cucumber Java.Scenario: Cadastro de impressora" />
+        <item itemvalue="Cucumber Java.Scenario: Cadastro de usuario" />
         <item itemvalue="Cucumber Java.Scenario: Cadastro de produto" />
-        <item itemvalue="JUnit.Runner (4)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SeleniumInternalSettingsState">
-    <option name="lastUrl" value="https://rastroapp-homol.rastreabilidadebrasil.com.br/#/dashboard" />
+    <option name="lastUrl" value="https://rastroapp-homol.rastreabilidadebrasil.com.br/#/login" />
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -247,6 +262,7 @@
       <workItem from="1702989193695" duration="837000" />
       <workItem from="1702990068857" duration="78000" />
       <workItem from="1703007901367" duration="34970000" />
+      <workItem from="1704716938284" duration="18127000" />
     </task>
     <task id="LOCAL-00001" summary="alterações com inclusão do rastro">
       <option name="closed" value="true" />
@@ -296,7 +312,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703166333875</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="inclusão da automação de cadastro de impressoras&#10;inclusão do page do cadastro de Leitores">
+      <option name="closed" value="true" />
+      <created>1704717004202</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704717004202</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

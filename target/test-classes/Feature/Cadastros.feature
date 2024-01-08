@@ -21,7 +21,7 @@ Feature: Cadastros no Rastro app
 
   @cadastrousuario
   Scenario: Cadastro de usuario
-    Given que o usuário faça o login e esteja no dashboard
+    Given que o usuário faça o login e esteja no dashboard1
     When ir em cadastro e selecionar a aba usuarios
     And clicar em novo e inserir os dados do usuario
     Then aparecera a mensagem O usuário foi cadastrado com sucesso!
@@ -32,6 +32,13 @@ Feature: Cadastros no Rastro app
     And ir em cadastro e selecionar a aba impressoras
     When clicar em novo e inserir os dados da impressora
     Then a impressora sera cadastrada
+
+  @cadastroleitor
+  Scenario: Cadastro de Leitor
+    Given que o usuário faça login no Rastro e esteja no dashboard
+    When ir em cadastro e selecionar a aba leitores
+    And clicar em novo e inserir os dados do leitor
+    Then o leitor será cadastrado com sucesso
 
 
 

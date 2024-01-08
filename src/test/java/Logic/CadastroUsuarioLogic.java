@@ -2,18 +2,33 @@ package Logic;
 
 import Pages.CadastroUsuarioPage;
 import Utils.Utils;
+import org.openqa.selenium.WebDriver;
 
 public class CadastroUsuarioLogic {
     CadastroUsuarioPage cadastroUsuarioPage = new CadastroUsuarioPage();
+    CadastrosLogic cadastrosLogic = new CadastrosLogic();
     Utils utils = new Utils();
+    LoginLogic loginLogic = new LoginLogic();
+
+    public void acessoAoRastro() throws InterruptedException {
+        loginLogic.acessoAoRastro();
 
 
-    public void acessarOSubMenuUsuarios(){
+    }
+
+    public void menuCadastros()throws InterruptedException{
+        cadastrosLogic.cadastros();
+
+    }
+    public void acessarOSubMenuUsuarios() throws InterruptedException {
+        WebDriver driver;
+        utils.pausa(2000);
         utils.clicar(cadastroUsuarioPage.getSubMenuUsuario());
 
     }
 
     public String incluirNovoUsuario() throws InterruptedException {
+        WebDriver driver;
         String nome = "Marina Teste";
         utils.clicar(cadastroUsuarioPage.getBtnNovoUsuario());
         utils.preencher(cadastroUsuarioPage.getCampoNomeUsuario(), (nome));
@@ -31,9 +46,13 @@ public class CadastroUsuarioLogic {
         return nome;
     }
 
-    public void validarCadastroUsuario() throws InterruptedException {
-        String nome = incluirNovoUsuario();
+
+   public void validarCadastroUsuario() throws InterruptedException {
+       WebDriver driver;
+       utils.pausa(2000);
+       utils.validarTexto(cadastroUsuarioPage.getTxtCadastroUsuario(), "O usuário foi cadastrado com sucesso!");
+   }
 
 
     }
-}
+

@@ -44,7 +44,7 @@ public class CadastroSitesLogic {
         utils.pausa(2000);
         utils.clicar(cadastroSitesPage.getBtnNovoSite());
         utils.pausa(2000);
-        utils.preencher(cadastroSitesPage.getCampoNomeSite(), "TESTE 123");
+        utils.preencher(cadastroSitesPage.getCampoNomeSite(), "TESTE 2");
         utils.preencher(cadastroSitesPage.getCampoCNPJ(), "78946325986541");
         utils.clicar(cadastroSitesPage.getBtnSalvarSite());
 

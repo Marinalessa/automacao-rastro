@@ -3,7 +3,7 @@ package Pages;
 import org.openqa.selenium.By;
 
 public class CadastroImpressorasPage {
-    private By subMenuImpressoras =  By.xpath("//span[text()='Impressoras']");
+    private By subMenuImpressoras =  By.xpath("//*[@id='MENU.PRINTERS']/a");
     private By btnNovaImpressora = By.xpath("//*[@id='button-new']");
 
     private By campoNomeImpressora = By.id("txt-name");
