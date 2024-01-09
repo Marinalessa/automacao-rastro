@@ -1,8 +1,6 @@
-package Steps;
+package Steps.Cadastros;
 
-import Logic.CadastroImpressoraLogic;
-import Logic.CadastrosLogic;
-import Pages.CadastroImpressorasPage;
+import Logic.Cadastros.CadastroImpressoraLogic;
 import Utils.Utils;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

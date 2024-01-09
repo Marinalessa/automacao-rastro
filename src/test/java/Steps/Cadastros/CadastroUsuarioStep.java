@@ -1,7 +1,7 @@
-package Steps;
+package Steps.Cadastros;
 
-import Logic.CadastroUsuarioLogic;
-import Logic.CadastrosLogic;
+import Logic.Cadastros.CadastroUsuarioLogic;
+import Logic.Cadastros.CadastrosLogic;
 import Utils.Utils;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

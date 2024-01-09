@@ -1,6 +1,6 @@
-package Pages;
+package Pages.Cadastros;
 
-import Logic.CadastroUsuarioLogic;
+import Logic.Cadastros.CadastroUsuarioLogic;
 import org.openqa.selenium.By;
 
 public class CadastroUsuarioPage {

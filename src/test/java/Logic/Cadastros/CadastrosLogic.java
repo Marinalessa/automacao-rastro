@@ -1,6 +1,6 @@
-package Logic;
+package Logic.Cadastros;
 
-import Pages.CadastroPage;
+import Pages.Cadastros.CadastroPage;
 import Utils.Utils;
 import org.openqa.selenium.WebDriver;
 

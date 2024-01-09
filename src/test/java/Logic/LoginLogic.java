@@ -1,6 +1,6 @@
 package Logic;
 
-import Pages.CadastroPage;
+import Pages.Cadastros.CadastroPage;
 import Pages.LoginPage;
 import Utils.Utils;
 

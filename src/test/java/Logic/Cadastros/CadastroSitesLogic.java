@@ -1,8 +1,9 @@
-package Logic;
+package Logic.Cadastros;
 
-import Pages.CadastroPage;
-import Pages.CadastroProdutosGS1Page;
-import Pages.CadastroSitesPage;
+import Logic.LoginLogic;
+import Pages.Cadastros.CadastroPage;
+import Pages.Cadastros.CadastroProdutosGS1Page;
+import Pages.Cadastros.CadastroSitesPage;
 import Pages.LoginPage;
 import Utils.Utils;
 import org.openqa.selenium.WebDriver;

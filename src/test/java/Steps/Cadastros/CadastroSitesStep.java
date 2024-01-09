@@ -1,11 +1,12 @@
-package Steps;
+package Steps.Cadastros;
 
-import Logic.CadastroProdutosGS1Logic;
-import Logic.CadastroSitesLogic;
-import Logic.CadastrosLogic;
+import Logic.Cadastros.CadastroProdutosGS1Logic;
+import Logic.Cadastros.CadastroSitesLogic;
+import Logic.Cadastros.CadastrosLogic;
 import Logic.LoginLogic;
-import Pages.CadastroProdutosGS1Page;
+import Pages.Cadastros.CadastroProdutosGS1Page;
 import Pages.LoginPage;
+import Steps.LoginStep;
 import Utils.Utils;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

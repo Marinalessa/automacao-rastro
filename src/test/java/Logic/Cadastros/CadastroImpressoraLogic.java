@@ -1,6 +1,6 @@
-package Logic;
+package Logic.Cadastros;
 
-import Pages.CadastroImpressorasPage;
+import Pages.Cadastros.CadastroImpressorasPage;
 import Utils.Utils;
 
 public class CadastroImpressoraLogic {

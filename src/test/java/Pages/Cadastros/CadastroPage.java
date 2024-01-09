@@ -1,4 +1,4 @@
-package Pages;
+package Pages.Cadastros;
 import org.openqa.selenium.By;
 public class CadastroPage {
     private By menuCadastros = By.xpath("//span[text()='Cadastros']");

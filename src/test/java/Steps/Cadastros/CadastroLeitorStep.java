@@ -1,6 +1,6 @@
-package Steps;
+package Steps.Cadastros;
 
-import Logic.CadastroLeitorLogic;
+import Logic.Cadastros.CadastroLeitorLogic;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
