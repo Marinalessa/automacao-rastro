@@ -1,6 +1,6 @@
 package Logic;
 
-import Pages.Cadastros.CadastroPage;
+import Pages.Cadastros.MenuCadastroPage;
 import Pages.LoginPage;
 import Utils.Utils;
 
@@ -9,7 +9,7 @@ public class LoginLogic {
     Utils utils = new Utils();
     LoginPage loginPage = new LoginPage();
 
-    CadastroPage cadastroPage = new CadastroPage();
+    MenuCadastroPage menuCadastroPage = new MenuCadastroPage();
 
     public void acessoAoRastro() throws InterruptedException {
         String url = "https://rastroapp-homol.rastreabilidadebrasil.com.br/#/login";
@@ -36,7 +36,7 @@ public class LoginLogic {
     public void cadastros() throws InterruptedException {
 
         utils.pausa(2000);
-        utils.clicar(cadastroPage.getMenuCadastros());
+        utils.clicar(menuCadastroPage.getMenuCadastros());
 
 
     }

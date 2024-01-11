@@ -29,7 +29,7 @@ public class CadastroLeitorStep {
         cadastroLeitorLogic.cadastroNovoLeitor();
     }
     @Then("o leitor será cadastrado com sucesso")
-    public void o_leitor_será_cadastrado_com_sucesso() {
+    public void o_leitor_será_cadastrado_com_sucesso() throws InterruptedException {
 
         cadastroLeitorLogic.validarNovoLeitor();
 

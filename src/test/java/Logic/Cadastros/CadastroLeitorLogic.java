@@ -3,7 +3,7 @@ package Logic.Cadastros;
 import Logic.LoginLogic;
 import Pages.*;
 import Pages.Cadastros.CadastroLeitoresPage;
-import Pages.Cadastros.CadastroPage;
+import Pages.Cadastros.MenuCadastroPage;
 import Utils.Utils;
 import org.openqa.selenium.WebDriver;
 
@@ -12,9 +12,9 @@ public class CadastroLeitorLogic {
     Utils utils = new Utils();
     LoginPage loginPage = new LoginPage();
 
-    CadastroPage cadastroPage = new CadastroPage();
+    MenuCadastroPage menuCadastroPage = new MenuCadastroPage();
     LoginLogic loginLogic = new LoginLogic();
-    CadastrosLogic cadastrosLogic = new CadastrosLogic();
+    MenuCadastrosLogic menuCadastrosLogic = new MenuCadastrosLogic();
     CadastroLeitoresPage cadastroLeitoresPage = new CadastroLeitoresPage();
 
     public void acessoRastro() throws InterruptedException {
@@ -22,7 +22,7 @@ public class CadastroLeitorLogic {
     }
 
     public void menuCadastros()throws InterruptedException{
-        cadastrosLogic.cadastros();
+        menuCadastrosLogic.cadastros();
 
     }
 
@@ -58,8 +58,9 @@ public class CadastroLeitorLogic {
 
 
     }
-    public void validarNovoLeitor(){
+    public void validarNovoLeitor() throws InterruptedException {
+        utils.pausa(2000);
         utils.validarTexto(cadastroLeitoresPage.getValidarCadastroLeitor(), "O leitor foi cadastrado com sucesso!");
-
+        utils.fecharNavegador();
     }
 }

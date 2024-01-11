@@ -1,7 +1,7 @@
 package Logic.Cadastros;
 
 import Logic.LoginLogic;
-import Pages.Cadastros.CadastroPage;
+import Pages.Cadastros.MenuCadastroPage;
 import Pages.Cadastros.CadastroProdutosGS1Page;
 import Pages.Cadastros.CadastroSitesPage;
 import Pages.LoginPage;
@@ -15,9 +15,9 @@ public class CadastroSitesLogic {
     Utils utils = new Utils();
     LoginPage loginPage = new LoginPage();
     CadastroProdutosGS1Page cadastroProdutosGS1Page = new CadastroProdutosGS1Page();
-    CadastroPage cadastroPage = new CadastroPage();
+    MenuCadastroPage menuCadastroPage = new MenuCadastroPage();
     LoginLogic loginLogic = new LoginLogic();
-    CadastrosLogic cadastrosLogic = new CadastrosLogic();
+    MenuCadastrosLogic menuCadastrosLogic = new MenuCadastrosLogic();
     CadastroSitesPage cadastroSitesPage = new CadastroSitesPage();
 
 
@@ -28,7 +28,7 @@ public class CadastroSitesLogic {
     }
 
     public void menuCadastros()throws InterruptedException{
-        cadastrosLogic.cadastros();
+        menuCadastrosLogic.cadastros();
 
     }
 
@@ -56,6 +56,7 @@ public class CadastroSitesLogic {
         WebDriver driver;
         utils.pausa(2000);
         utils.validarTexto(cadastroSitesPage.getTxtCadastroSite(), "O site foi cadastrado com sucesso!");
+        utils.fecharNavegador();
 
 
     }

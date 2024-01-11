@@ -32,7 +32,7 @@ public class CadastroLeitoresPage {
     private By campoIdentificacaoServidor = By.id("txt-server-identification");
     private By campoConfigOrigem = By.id("txt-origin-config");
     private By btnSalvarLeitor = By.id("button-save");
-    private By validarCadastroLeitor = By.xpath("//span[text()='O leitor foi cadastrado com sucesso!']");
+    private By validarCadastroLeitor = By.xpath("//p[text()='O leitor foi cadastrado com sucesso!']");
 
 
 

@@ -1,7 +1,7 @@
 package Logic.Cadastros;
 
 import Logic.LoginLogic;
-import Pages.Cadastros.CadastroPage;
+import Pages.Cadastros.MenuCadastroPage;
 import Pages.Cadastros.CadastroProdutosGS1Page;
 import Pages.LoginPage;
 import Utils.Utils;
@@ -14,9 +14,9 @@ public class CadastroProdutosGS1Logic {
         Utils utils = new Utils();
         LoginPage loginPage = new LoginPage();
         CadastroProdutosGS1Page cadastroProdutosGS1Page = new CadastroProdutosGS1Page();
-        CadastroPage cadastroPage = new CadastroPage();
+        MenuCadastroPage menuCadastroPage = new MenuCadastroPage();
         LoginLogic loginLogic = new LoginLogic();
-        CadastrosLogic cadastrosLogic = new CadastrosLogic();
+        MenuCadastrosLogic menuCadastrosLogic = new MenuCadastrosLogic();
 
 
         public void acessoAoRastro() throws InterruptedException {
@@ -26,7 +26,7 @@ public class CadastroProdutosGS1Logic {
         }
 
         public void menuCadastros()throws InterruptedException{
-            cadastrosLogic.cadastros();
+            menuCadastrosLogic.cadastros();
 
         }
 
@@ -55,7 +55,7 @@ public class CadastroProdutosGS1Logic {
         WebDriver driver;
         utils.pausa(2000);
         utils.validarTexto(cadastroProdutosGS1Page.getTxtCadastroProduto(), "O produto foi cadastrado com sucesso!");
-
+        utils.fecharNavegador();
     }
 
 }

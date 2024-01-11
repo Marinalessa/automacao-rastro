@@ -20,7 +20,7 @@ public class CadastroCheckpointStep {
 
     }
     @Then("o checkpoint será cadastrado com sucesso")
-    public void o_checkpoint_será_cadastrado_com_sucesso() {
+    public void o_checkpoint_será_cadastrado_com_sucesso() throws InterruptedException {
         cadastroCheckpointLogic.validarCadatsroCheckpoint();
 
     }

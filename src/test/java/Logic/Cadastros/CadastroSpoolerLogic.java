@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 public class CadastroSpoolerLogic {
     Utils utils = new Utils();
     LoginLogic loginLogic = new LoginLogic();
-    CadastrosLogic cadastrosLogic = new CadastrosLogic();
+    MenuCadastrosLogic menuCadastrosLogic = new MenuCadastrosLogic();
     CadastroSpoolerPage cadastroSpoolerPage = new CadastroSpoolerPage();
 
     public void acessoRastro() throws InterruptedException {
@@ -16,7 +16,7 @@ public class CadastroSpoolerLogic {
     }
 
     public void menuCadastros()throws InterruptedException{
-        cadastrosLogic.cadastros();
+        menuCadastrosLogic.cadastros();
 
     }
 
@@ -38,6 +38,7 @@ public class CadastroSpoolerLogic {
         WebDriver driver;
         utils.pausa(2000);
         utils.validarTexto(cadastroSpoolerPage.getValidarCadastroSpooler(), "O spooler foi cadastrado com sucesso!");
+        utils.fecharNavegador();
     }
     }
 

@@ -1,7 +1,7 @@
 package Steps.Cadastros;
 
 import Logic.Cadastros.CadastroProdutosGS1Logic;
-import Logic.Cadastros.CadastrosLogic;
+import Logic.Cadastros.MenuCadastrosLogic;
 import Steps.LoginStep;
 import Utils.Utils;
 import Pages.Cadastros.CadastroProdutosGS1Page;
@@ -17,7 +17,7 @@ public class CadastroProdutosGS1Steps {
     LoginPage loginPage = new LoginPage();
     LoginStep loginStep = new LoginStep();
     LoginLogic loginLogic = new LoginLogic();
-    CadastrosLogic cadastrosLogic = new CadastrosLogic();
+    MenuCadastrosLogic menuCadastrosLogic = new MenuCadastrosLogic();
     CadastroProdutosGS1Logic cadastroProdutosGS1Logic = new CadastroProdutosGS1Logic();
 
 

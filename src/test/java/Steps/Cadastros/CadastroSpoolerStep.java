@@ -1,14 +1,14 @@
 package Steps.Cadastros;
 
 import Logic.Cadastros.CadastroSpoolerLogic;
-import Logic.Cadastros.CadastrosLogic;
+import Logic.Cadastros.MenuCadastrosLogic;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class CadastroSpoolerStep {
 
     CadastroSpoolerLogic cadastroSpoolerLogic = new CadastroSpoolerLogic();
-    CadastrosLogic cadastrosLogic = new CadastrosLogic();
+    MenuCadastrosLogic menuCadastrosLogic = new MenuCadastrosLogic();
 
     @When("ir em cadastro e selecionar a aba Spoolers de Impressão")
     public void ir_em_cadastro_e_selecionar_a_aba_spoolers_de_impressão() throws InterruptedException {

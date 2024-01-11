@@ -8,11 +8,11 @@ public class CadastroEtiquetasLogic {
 
     Utils utils = new Utils();
     LoginLogic loginLogic = new LoginLogic();
-    CadastrosLogic cadastrosLogic = new CadastrosLogic();
+    MenuCadastrosLogic menuCadastrosLogic = new MenuCadastrosLogic();
     CadastroEtiquetasPage cadastroEtiquetasPage = new CadastroEtiquetasPage();
 
     public void menuCadastros()throws InterruptedException {
-        cadastrosLogic.cadastros();
+        menuCadastrosLogic.cadastros();
     }
 
 
@@ -48,8 +48,10 @@ public class CadastroEtiquetasLogic {
         utils.clicar(cadastroEtiquetasPage.getBtnSalvarEtiqueta());
     }
 
-    public void validarCadastroEtiqueta(){
+    public void validarCadastroEtiqueta() throws InterruptedException {
+        utils.pausa(2000);
         utils.validarTexto(cadastroEtiquetasPage.getValidarCadastroEtiqueta(),"A etiqueta foi cadastrada com sucesso!");
+        utils.fecharNavegador();
     }
 }
 

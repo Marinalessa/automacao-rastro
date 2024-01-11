@@ -15,7 +15,7 @@ public class CadastroCheckpointPage {
     private By campoEvento = By.xpath("/html/body/app-root/app-main/div/div[2]/app-checkpoint-list/p-dialog[3]/div/div/div[2]/form/div/div/div/div[3]/div/span/p-dropdown/div/div[2]");
     private By selectEvento = By.xpath("//div[text()='CHECKOUT']");
     private By btnSalvarChekpoint = By.id("button-save");
-    private By validarNovoCheckpoint = By.xpath("//span[text()='O checkpoint foi cadastro com sucesso!']");
+    private By validarNovoCheckpoint = By.xpath("//p[text()='O checkpoint foi cadastro com sucesso!']");
 
     public By getSubMenuCheckpoints() {
         return subMenuCheckpoints;

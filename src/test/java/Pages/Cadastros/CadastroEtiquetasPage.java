@@ -18,7 +18,7 @@ public class CadastroEtiquetasPage {
     private By campoZPLLayout = By.id("txt-zpl-layout");
     private By campoZPLUnitario = By.id("txt-zpl-unit");
     private By btnSalvarEtiqueta = By.id("button-save");
-    private By validarCadastroEtiqueta = By.xpath("//span[text()='A etiqueta foi cadastrada com sucesso!']");
+    private By validarCadastroEtiqueta = By.xpath("//p[text()='A etiqueta foi cadastrada com sucesso!']");
 
     public By getSubMenuEtiquetas() {
         return subMenuEtiquetas;

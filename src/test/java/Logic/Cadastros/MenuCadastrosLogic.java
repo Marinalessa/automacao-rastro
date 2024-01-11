@@ -1,23 +1,23 @@
 package Logic.Cadastros;
 
-import Pages.Cadastros.CadastroPage;
+import Pages.Cadastros.MenuCadastroPage;
 import Utils.Utils;
 import org.openqa.selenium.WebDriver;
 
 
-public class CadastrosLogic {
+public class MenuCadastrosLogic {
 
 private WebDriver driver = null;
 private final Utils utils;
-private final CadastroPage cadastroPage;
+private final MenuCadastroPage menuCadastroPage;
 
 
 
 
-    public CadastrosLogic() {
+    public MenuCadastrosLogic() {
         this.driver = driver;
         this.utils = new Utils();
-        this.cadastroPage = new CadastroPage();
+        this.menuCadastroPage = new MenuCadastroPage();
     }
 
 
@@ -27,7 +27,7 @@ private final CadastroPage cadastroPage;
 
 
         utils.pausa(2000);
-        utils.clicar(cadastroPage.getMenuCadastros());
+        utils.clicar(menuCadastroPage.getMenuCadastros());
 
 
     }

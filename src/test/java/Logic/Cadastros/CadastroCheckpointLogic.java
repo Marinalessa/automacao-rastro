@@ -2,7 +2,6 @@ package Logic.Cadastros;
 
 import Logic.LoginLogic;
 import Pages.Cadastros.CadastroCheckpointPage;
-import Pages.Cadastros.CadastroEtiquetasPage;
 import Utils.Utils;
 
 public class CadastroCheckpointLogic {
@@ -10,11 +9,11 @@ public class CadastroCheckpointLogic {
 
     Utils utils = new Utils();
     LoginLogic loginLogic = new LoginLogic();
-    CadastrosLogic cadastrosLogic = new CadastrosLogic();
+    MenuCadastrosLogic menuCadastrosLogic = new MenuCadastrosLogic();
     CadastroCheckpointPage cadastroCheckpointPage = new CadastroCheckpointPage();
 
     public void menuCadastros()throws InterruptedException {
-        cadastrosLogic.cadastros();
+        menuCadastrosLogic.cadastros();
     }
 
 
@@ -42,7 +41,9 @@ public class CadastroCheckpointLogic {
         utils.clicar(cadastroCheckpointPage.getBtnSalvarChekpoint());
     }
 
-    public void validarCadatsroCheckpoint(){
+    public void validarCadatsroCheckpoint() throws InterruptedException {
+        utils.pausa(2000);
         utils.validarTexto(cadastroCheckpointPage.getValidarNovoCheckpoint(), "O checkpoint foi cadastro com sucesso!");
+        utils.fecharNavegador();
     }
 }

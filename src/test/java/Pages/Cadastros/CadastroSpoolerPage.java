@@ -9,7 +9,7 @@ public class CadastroSpoolerPage {
     public By campoNomeSpooler = By.id("txt-name");
     public By campoDescricaoSpooler = By.id("txt-description");
     public By btnSalvarSpooler = By.id("button-save");
-    public By validarCadastroSpooler = By.xpath("//span[text()='O spooler foi cadastrado com sucesso!']");
+    public By validarCadastroSpooler = By.xpath("//p[text()='O spooler foi cadastrado com sucesso!']");
 
     public By getSubMenuSpooler() {
         return subMenuSpooler;

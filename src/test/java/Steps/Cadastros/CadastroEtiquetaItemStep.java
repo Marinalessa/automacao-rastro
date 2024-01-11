@@ -23,7 +23,7 @@ public class CadastroEtiquetaItemStep {
 
     }
     @Then("a etiqueta por item sera cadastrada com sucesso")
-    public void a_etiqueta_por_item_sera_cadastrada_com_sucesso() {
+    public void a_etiqueta_por_item_sera_cadastrada_com_sucesso() throws InterruptedException {
         cadastroEtiquetasLogic.validarCadastroEtiqueta();
 
     }
