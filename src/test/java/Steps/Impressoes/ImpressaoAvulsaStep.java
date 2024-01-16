@@ -28,8 +28,8 @@ public class ImpressaoAvulsaStep {
         impressaoAvulsaLogic.novaImpressaoAvulsa();
 
     }
-    @Then("a impressao sera enviada com sucesso")
-    public void a_impressao_sera_enviada_com_sucesso() throws InterruptedException {
+    @Then("a impressao avulsa sera enviada com sucesso")
+    public void a_impressao_avulsa_sera_enviada_com_sucesso() throws InterruptedException {
         impressaoAvulsaLogic.validarImpressao();
 
     }
