@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1a3c845-2eae-4cd0-9c99-6fd247fb433d" name="Changes" comment="inclusão da automação de impressão avulsa, page, logic e step e inicio da impressão pendente page">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Impressões/AssociacaoRecodeLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Impressões/ImpressaoRecodeLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Logic/Impressões/ScanPrintLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Impressões/AssociacaoRecodePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Impressões/ImpressaoRecodePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Impressões/ScanPrintPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Impressoes/AssociacaoRecodeStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Impressoes/ImpressaoRecodeStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Impressoes/ScanPrintStep.java" afterDir="false" />
+    <list default="true" id="a1a3c845-2eae-4cd0-9c99-6fd247fb433d" name="Changes" comment="inclusão da automação de impressão recode">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Impressões/ImpressoesPendentePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Impressões/ImpressoesPendentePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Impressoes/ImpressaoAvulsaStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/Impressoes/ImpressaoAvulsaStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Feature/Impressoes.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Feature/Impressoes.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="15.12.23.2" />
+        <entry key="$PROJECT_DIR$" value="15.12.23" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,49 +58,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Cucumber Java.Feature: Cadastros.executor": "Run",
-    "Cucumber Java.Feature: Impressoes.executor": "Run",
-    "Cucumber Java.Scenario: Associação de Recode.executor": "Run",
-    "Cucumber Java.Scenario: Cadastro de Checkpoint.executor": "Run",
-    "Cucumber Java.Scenario: Cadastro de Etiqueta por Agregação.executor": "Run",
-    "Cucumber Java.Scenario: Cadastro de Etiqueta por Item.executor": "Run",
-    "Cucumber Java.Scenario: Cadastro de Leitor.executor": "Run",
-    "Cucumber Java.Scenario: Cadastro de Portal.executor": "Run",
-    "Cucumber Java.Scenario: Cadastro de Spooler.executor": "Run",
-    "Cucumber Java.Scenario: Cadastro de impressora.executor": "Run",
-    "Cucumber Java.Scenario: Cadastro de produto.executor": "Run",
-    "Cucumber Java.Scenario: Cadastro de site.executor": "Run",
-    "Cucumber Java.Scenario: Cadastro de usuario.executor": "Run",
-    "Cucumber Java.Scenario: Fechar Navegador.executor": "Run",
-    "Cucumber Java.Scenario: Impressao de Recode.executor": "Run",
-    "Cucumber Java.Scenario: Impressão Avulsa.executor": "Run",
-    "Cucumber Java.Scenario: Login no Rastro.executor": "Run",
-    "Cucumber Java.Scenario: Scan Print.executor": "Run",
-    "JUnit.Runner (1).executor": "Run",
-    "JUnit.Runner (2).executor": "Run",
-    "JUnit.Runner (3).executor": "Run",
-    "JUnit.Runner (4).executor": "Run",
-    "JUnit.Runner (5).executor": "Run",
-    "JUnit.Runner.executor": "Run",
-    "Maven.Br.com.original [clean,install].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "15.12.23",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/macar/IdeaProjects/mt-tests",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pathVariables",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Cucumber Java.Feature: Cadastros.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: Impressoes.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Associação de Recode.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Cadastro de Checkpoint.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Cadastro de Etiqueta por Agregação.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Cadastro de Etiqueta por Item.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Cadastro de Leitor.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Cadastro de Portal.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Cadastro de Spooler.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Cadastro de impressora.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Cadastro de produto.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Cadastro de site.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Cadastro de usuario.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Fechar Navegador.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Impressao de Recode.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Impressão Avulsa.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Login no Rastro.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Scan Print.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Runner (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Runner (2).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Runner (3).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Runner (4).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Runner (5).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Br.com.original [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/macar/IdeaProjects/CursoSelenium&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\macar\IdeaProjects\banco-original\Drive" />
@@ -278,7 +266,8 @@
       <workItem from="1704716938284" duration="65510000" />
       <workItem from="1705319160798" duration="11648000" />
       <workItem from="1705340938779" duration="2699000" />
-      <workItem from="1705406607510" duration="4459000" />
+      <workItem from="1705406607510" duration="7761000" />
+      <workItem from="1705424555485" duration="2550000" />
     </task>
     <task id="LOCAL-00001" summary="alterações com inclusão do rastro">
       <option name="closed" value="true" />
@@ -360,7 +349,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705002893690</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="inclusão da automação de impressão recode">
+      <option name="closed" value="true" />
+      <created>1705411817624</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1705411817625</updated>
+    </task>
+    <task id="LOCAL-00012" summary="inclusão da automação de impressão recode">
+      <option name="closed" value="true" />
+      <created>1705411908936</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1705411908936</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +391,8 @@
     <MESSAGE value="inclusão da automação de cadastro de impressoras&#10;inclusão do page, logic, steps e inclusão na feature do cadastro de Leitores" />
     <MESSAGE value="inclusão da automação de cadastro de Checkpoint, Etiqueta de Item, Etiqueta de agregação e cadastro de Spooler" />
     <MESSAGE value="inclusão da automação de impressão avulsa, page, logic e step e inicio da impressão pendente page" />
-    <option name="LAST_COMMIT_MESSAGE" value="inclusão da automação de impressão avulsa, page, logic e step e inicio da impressão pendente page" />
+    <MESSAGE value="inclusão da automação de impressão recode" />
+    <option name="LAST_COMMIT_MESSAGE" value="inclusão da automação de impressão recode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
